@@ -1,6 +1,6 @@
 # Li_et_al_2018_eDNA_fish_monitoring
 
-Data processing workflow and supplementary data for Li et al. 2018 - The effect of filtration method on the efficiency of environmental DNA capture and quantification via metabarcoding. _Molecular Ecology Resourses_ DOI: 
+Data processing workflow and supplementary data for Li et al. 2018 - Development  of  an  eDNA  method  for  monitoring  lake  fish  communities.
 
 Release 1.0 of this repository has been archived: 
 
