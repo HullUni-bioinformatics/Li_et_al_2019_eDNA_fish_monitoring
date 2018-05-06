@@ -5,13 +5,13 @@ Data processing workflow and supplementary data for Li et al. 2018 - Development
 Release 1.0 of this repository has been archived: 
 
 ##Contents
-  - reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017_eDNA_filtration/tree/master/supplementary_data/reference_DBs))
-  - adapter sequences used for 12S fragment ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/12S-adapters.fasta))
-  - SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv))
-  - Taxonomic assignment results ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/tree/master/supplementary_data/assignment_results))
+  - 12S reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
+  - Cytb reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017_eDNA_filtration/tree/master/supplementary_data/reference_DBs))
+  - SRA accession numbers for 12S raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv))
+  - SRA accession numbers for 12S raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv))
   - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/tree/master/R_script))
-  - Appendix S1: Read counts of OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Appendix_S1.csv))
-  - Figure S3: Maximum likelihood phylogenetic tree of the all 12S sequences from the custom reference database (.png) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Figure_S3.png))
+  - Appendix S1: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Appendix_S1.csv))
+  - Appendix S2: Read counts of Cytb OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Appendix_S1.csv))
 
 
 ##Instructions on how to set up all dependencies for data processing/analyses
