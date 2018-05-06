@@ -10,14 +10,18 @@ Release 1.0 of this repository has been archived:
   
   - SRA accession numbers for Cytb raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv))
   
-  - Jupyter notebook for download the 12S raw read data [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb).
+  - Jupyter notebook for download the 12S raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb)).
   
-  - Jupyter notebook for download the Cytb raw read data [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb).
+  - Jupyter notebook for download the Cytb raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb)).
   
    - 12S reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
    
   - Cytb reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/Cytb/supplementary_data/reference_DBs))
   
+  - Jupyter notebook for fully rerun/reproduce 12S analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
+  
+    - Jupyter notebook for fully rerun/reproduce Cytb analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
+    
   - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/tree/master/R_script))
   
   - Appendix S1: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Appendix_S1.csv))
