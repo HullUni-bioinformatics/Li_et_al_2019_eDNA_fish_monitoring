@@ -59,7 +59,7 @@ This will download the metaBEAT image (if it's not yet present on your computer)
 
 ##Data processing workflow as Jupyter notebooks
 
-__12S__
+  - __12S__
  
 Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09058600-SAMN09058613; Sequence Read Archive accessions: SRR7106552-SRR7106565) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the 12S raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb).
 
@@ -74,7 +74,7 @@ The __Querymap for demultiplex and trimming__ can be found [here](https://github
 The __12S reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
  
 
-__Cytb__
+  - __Cytb__
 
 Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09059971-SAMN09060202; Sequence Read Archive accessions: SRR7108634-SRR7108885) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb).
 
