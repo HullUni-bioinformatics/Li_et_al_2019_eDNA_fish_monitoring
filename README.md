@@ -12,7 +12,7 @@ Release 1.0 of this repository has been archived:
   
   - Jupyter notebook for download the 12S raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb)).
   
-  - Jupyter notebook for download the Cytb raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb)).
+  - Jupyter notebook for download the Cytb raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/How_to_download_Cytb_Rawdata_from_SRA.ipynb)).
   
    - 12S curated reference databases used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
    
@@ -20,14 +20,13 @@ Release 1.0 of this repository has been archived:
   
   - Jupyter notebook for fully rerun/reproduce 12S analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
   
-  - Jupyter notebook for fully rerun/reproduce Cytb analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
+  - Jupyter notebook for fully rerun/reproduce Cytb analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/LP_Cytb.ipynb)).
     
-  - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/tree/master/R_script))
+  - R scripts used to produce the figures in the paper ([here]())
   
-  - Appendix S1: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Appendix_S1.csv))
+  - Appendix S1: Read counts of 12S OTUs data was used for the R script (.csv) ([here]())
   
-  - Appendix S2: Read counts of Cytb OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Appendix_S1.csv))
-
+  - Appendix S2: Read counts of Cytb OTUs data was used for the R script (.csv) ([here]())
 
 ##Instructions on how to set up all dependencies for data processing/analyses
  
@@ -76,13 +75,13 @@ The __12S reference sequences__ (curated reference databases) used in analyses i
 
   - __Cytb__
 
-Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09059971-SAMN09060202; Sequence Read Archive accessions: SRR7108634-SRR7108885) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb).
+Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09059971-SAMN09060202; Sequence Read Archive accessions: SRR7108634-SRR7108885) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/How_to_download_Cytb_Rawdata_from_SRA.ipynb).
 
 
-With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/Filtration_12S_July_2016.ipynb).
+With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/LP_Cytb.ipynb).
 
 The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_reads` at the base of the repository structure and that the files are named according to the following convention:
-'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv).
+'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv).
 
 
 The __Cytb reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/Cytb/supplementary_data/reference_DBs))
