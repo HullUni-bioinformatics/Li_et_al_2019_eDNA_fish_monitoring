@@ -1,6 +1,6 @@
 # Li_et_al_2018_eDNA_fish_monitoring
 
-Data processing workflow and supplementary data for Li et al. 2018 - Development  of  an  eDNA  method  for  monitoring  lake  fish  communities.
+Data processing workflow and supplementary data for Li et al. 2018 - Development of an environmental DNA method for monitoring fish communities: ground truthing in diverse lakes with characterised fish faunas
 
 Release 1.0 of this repository has been archived: 
 
@@ -24,9 +24,9 @@ Release 1.0 of this repository has been archived:
     
   - R scripts used to produce the figures in the paper ([here]())
   
-  - Appendix S1: Read counts of 12S OTUs data was used for the R script (.csv) ([here]())
+  - Appendix S3: Read counts of Cytb OTUs data was used for the R script (.csv) ([here]())
   
-  - Appendix S2: Read counts of Cytb OTUs data was used for the R script (.csv) ([here]())
+  - Appendix S4: Read counts of 12S OTUs data was used for the R script (.csv) ([here]())
 
 ##Instructions on how to set up all dependencies for data processing/analyses
  
