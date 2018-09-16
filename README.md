@@ -22,7 +22,7 @@ Release 1.0 of this repository has been archived:
   
   - Jupyter notebook for fully rerun/reproduce Cytb analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/LP_Cytb.ipynb)).
     
-  - R scripts used to produce the figures in the paper ([here]())
+  - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/R_script/LP_August_2018_Tran.R))
   
   - Appendix S3: Read counts of Cytb OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix%20S3_Cytb_LP_Rdataset_Dec_2017.csv))
   
