@@ -2,7 +2,7 @@
 
 Data processing workflow and supplementary data for Li et al. 2018 - Development of an environmental DNA method for monitoring fish communities: ground truthing in diverse lakes with characterised fish faunas
 
-Release 1.0 of this repository has been archived: 
+Release 1.0 of this repository has been archived: <a href="https://zenodo.org/badge/latestdoi/132161120"><img src="https://zenodo.org/badge/132161120.svg" alt="DOI"></a>
 
 ##Contents
  
