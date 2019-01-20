@@ -6,21 +6,21 @@ Release 1.0 of this repository has been archived: <a href="https://doi.org/10.52
 
 ##Contents
  
-  - SRA accession numbers for 12S raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv))
+  - SRA accession numbers for 12S raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv))
   
-  - SRA accession numbers for Cytb raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv))
+  - SRA accession numbers for Cytb raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv))
   
-  - Jupyter notebook for download the 12S raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb)).
+  - Jupyter notebook for download the 12S raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb)).
   
-  - Jupyter notebook for download the Cytb raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/How_to_download_Cytb_Rawdata_from_SRA.ipynb)).
+  - Jupyter notebook for download the Cytb raw read data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Cytb/How_to_download_Cytb_Rawdata_from_SRA.ipynb)).
   
-   - 12S curated reference databases used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
+   - 12S curated reference databases used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
    
-  - Cytb curated reference databases used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/Cytb/supplementary_data/reference_DBs))
+  - Cytb curated reference databases used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/tree/master/Cytb/supplementary_data/reference_DBs))
   
-  - Jupyter notebook for fully rerun/reproduce 12S analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
+  - Jupyter notebook for fully rerun/reproduce 12S analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb)).
   
-  - Jupyter notebook for fully rerun/reproduce Cytb analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/LP_Cytb.ipynb)).
+  - Jupyter notebook for fully rerun/reproduce Cytb analyses ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Cytb/LP_Cytb.ipynb)).
     
   - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/R_script/LP_Oct_2018_Tran.R))
   
@@ -38,7 +38,7 @@ Illumina data was processed (from raw reads to taxonomic assignments) using the 
 
 In order to retrieve supplementary data (reference sequences etc.) start by cloning this repository to your current directory:
 ```
-git clone --recursive https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring.git
+git clone --recursive https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring.git
 ```
 
 
@@ -60,29 +60,29 @@ This will download the metaBEAT image (if it's not yet present on your computer)
 
   - __12S__
  
-Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09058600-SAMN09058613; Sequence Read Archive accessions: SRR7106552-SRR7106565) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the 12S raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb).
+Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09058600-SAMN09058613; Sequence Read Archive accessions: SRR7106552-SRR7106565) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the 12S raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/12S/How_to_download_12S_Rawdata_from_SRA.ipynb).
 
 
-With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb).
+With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/12S/LP_12S.ipynb).
 
 The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_data` at the base of the repository structure and that the files are named according to the following convention:
 'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/supplementary_data/Sample_accessions.tsv).
 
-The __Querymap for demultiplex and trimming__ can be found [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/12S/Querymap_demultiplex_trimming_12S.txt)
+The __Querymap for demultiplex and trimming__ can be found [here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/12S/Querymap_demultiplex_trimming_12S.txt)
 
-The __12S reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
+The __12S reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/tree/master/12S/supplementary_data/reference_DBs))
  
 
   - __Cytb__
 
-Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09059971-SAMN09060202; Sequence Read Archive accessions: SRR7108634-SRR7108885) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/How_to_download_Cytb_Rawdata_from_SRA.ipynb).
+Raw illumina data has been deposited with Genbank (BioProject: PRJNA454866; BioSample accession: SAMN09059971-SAMN09060202; Sequence Read Archive accessions: SRR7108634-SRR7108885) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Cytb/How_to_download_Cytb_Rawdata_from_SRA.ipynb).
 
 
-With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/LP_Cytb.ipynb).
+With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Cytb/LP_Cytb.ipynb).
 
 The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_reads` at the base of the repository structure and that the files are named according to the following convention:
-'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv).
+'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Cytb/supplementary_data/Sample_accessions.tsv).
 
 
-The __Cytb reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/tree/master/Cytb/supplementary_data/reference_DBs))
+The __Cytb reference sequences__ (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/tree/master/Cytb/supplementary_data/reference_DBs))
 
