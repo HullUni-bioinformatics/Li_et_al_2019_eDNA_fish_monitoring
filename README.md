@@ -24,9 +24,9 @@ Release 1.0 of this repository has been archived: <a href="https://doi.org/10.52
     
   - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/R_script/LP_August_2018_Tran.R))
   
-  - Appendix S3: Read counts of Cytb OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix_S3_Cytb_LP_Rdataset_Dec_2017.csv))
+  - Appendix S3: Read counts of Cytb OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Appendix_S3_Cytb.csv))
   
-  - Appendix S4: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix_S4_12S_LP_Rdataset_Dec_2017.csv))
+  - Appendix S4: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2019_eDNA_fish_monitoring/blob/master/Appendix_S4_12S.csv))
 
 ##Instructions on how to set up all dependencies for data processing/analyses
  
