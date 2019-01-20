@@ -1,6 +1,6 @@
-# Li_et_al_2018_eDNA_fish_monitoring
+# Li_et_al_2019_eDNA_fish_monitoring
 
-Data processing workflow and supplementary data for Li et al. 2018 - Development of an environmental DNA method for monitoring fish communities: ground truthing in diverse lakes with characterised fish faunas
+Data processing workflow and supplementary data for Li et al. 2019 - Ground-truthing of a fish-based environmental DNA metabarcoding method for assessing the quality of lakes
 
 Release 1.0 of this repository has been archived: <a href="https://doi.org/10.5281/zenodo.1462898"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1462898.svg" alt="DOI"></a>
 
@@ -24,9 +24,9 @@ Release 1.0 of this repository has been archived: <a href="https://doi.org/10.52
     
   - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/R_script/LP_August_2018_Tran.R))
   
-  - Appendix S3: Read counts of Cytb OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix%20S3_Cytb_LP_Rdataset_Dec_2017.csv))
+  - Appendix S3: Read counts of Cytb OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix_S3_Cytb_LP_Rdataset_Dec_2017.csv))
   
-  - Appendix S4: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix%20S4_12S_LP_Rdataset_Dec_2017.csv))
+  - Appendix S4: Read counts of 12S OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_fish_monitoring/blob/master/Appendix_S4_12S_LP_Rdataset_Dec_2017.csv))
 
 ##Instructions on how to set up all dependencies for data processing/analyses
  
