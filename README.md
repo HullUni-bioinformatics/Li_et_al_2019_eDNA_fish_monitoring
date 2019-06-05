@@ -1,6 +1,6 @@
 # Li_et_al_2019_eDNA_fish_monitoring
 
-Data processing workflow and supplementary data for Li et al. 2019 - Ground-truthing of a fish-based environmental DNA metabarcoding method for assessing the quality of lakes _Journal of Applied Ecology_ DOI: 
+Data processing workflow and supplementary data for Li et al. 2019 - Ground-truthing of a fish-based environmental DNA metabarcoding method for assessing the quality of lakes _Journal of Applied Ecology_ 56(5) 1232-1244 DOI: ([here](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2664.13352))
 
 Release 1.1 of this repository has been archived: <a href="https://zenodo.org/badge/latestdoi/132161120"><img src="https://zenodo.org/badge/132161120.svg" alt="DOI"></a>
 
